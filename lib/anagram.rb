@@ -7,8 +7,8 @@ class Anagram
   end   
 
 
-def match(array)
-  array.selext {|x| x.split ("")
-end
+ def match(array)
+    array.select {|x| x.split("").sort == @name.split("").sort}
+  end  
 
 end
