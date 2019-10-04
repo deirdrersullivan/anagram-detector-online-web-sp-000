@@ -9,3 +9,6 @@ class Anagram
 
 def match(array)
   array.selext {|x| x.split ("")
+end
+
+end
